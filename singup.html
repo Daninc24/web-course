@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SingUp</title>
+</head>
+<body>
+    <div>
+        <form action="backend.php">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" value="">
+            </div><br>
+            <div>
+                <label for="contact">Contact:</label>
+                <input type="number" name="contact" id="contact" placeholder="enter your phone number" value="">
+            </div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="enter your mail" value="">
+            </div><br>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="gender">Male
+                <input type="radio" name="gender" id="gender">Female
+            </div><br>
+            <div>
+                <label for="date">Date of birth;</label>
+                <input type="date" name="date" id="date" placeholder="date">
+            </div><br>
+            <div>
+                <label for="file">Profile Picture:</label>
+                <input type="file" name="file" id="" placeholder="profile" accept="image/*">
+            </div><br>
+            <div>
+                <label for="option">Choose Course:</label>
+                <select name="option" id="">
+                    <option value="fullStack">Fullstack</option>
+                    <option value="backend">Backend</option>
+                    <option value="frontend">Frontend</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="comment">Comment Here:</label><br>
+                <textarea name="comment" id=""></textarea>
+            </div><br>
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="Reset Form">
+            </div>
+
+            
+        </form>
+    </div>
+</body>
+</html>
