@@ -23,8 +23,14 @@ video {
    margin-bottom: 30px;
    background-color: rgba(128, 218, 243, 0.575);
 }
-#portfolio {
-   display: flex;
+/* button section */
+.btn {
+   background-color: rgb(21, 161, 196);
+   margin: 30px;
+   font-size: 20px;
+   padding: 10px;
+   border-radius: 10px;
+   color: white;
 }
 /* footer section */
 footer {
